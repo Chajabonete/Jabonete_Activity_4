@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Jabonete_Activity_3">
-        <activity android:name=".Login_Successful"></activity>
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".Login_Page" >
+        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Login_Page">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
